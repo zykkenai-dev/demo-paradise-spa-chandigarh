@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paradise Salon &amp; Spa · Sector 7, Madhya Marg, Chandigarh</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Cpath d=%22M4 30V14a12 12 0 0 1 24 0v16z%22 fill=%22%23B8742A%22/%3E%3C/svg%3E">
+<meta name="description" content="Paradise Salon & Spa, SCO 5A Madhya Marg, Sector 7, Chandigarh. Thai and aromatherapy massage, body spa, facials, hair spa and grooming. Open daily 11 am to 10 pm.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500&family=Onest:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F7F3EC;--oat:#EDE5D7;--oat2:#E2D7C4;--umber:#3B2A1E;--cocoa:#22170F;--amber:#B8742A;--amber2:#9C5F1F;--soft:#7A6A5C;--line:rgba(59,42,30,.15)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Onest,system-ui,sans-serif;background:var(--cream);color:var(--umber);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.d{font-family:"Bricolage Grotesque",sans-serif;font-weight:300;letter-spacing:-.035em;line-height:1}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.kick{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber2);font-weight:500}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:54px;padding:0 28px;border-radius:999px;font-weight:500;font-size:15.5px;transition:background .3s,color .3s,transform .3s}
+.btn-a{background:var(--umber);color:var(--cream)}
+.btn-a:hover{background:var(--amber);transform:translateY(-2px)}
+.btn-o{border:1px solid var(--umber)}
+.btn-o:hover{background:var(--umber);color:var(--cream)}
+/* nav */
+nav{position:sticky;top:0;z-index:40;background:rgba(247,243,236,.9);backdrop-filter:blur(12px)}
+nav .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:78px}
+nav .l,nav .r{display:flex;gap:30px;font-size:15px}
+nav .r{justify-content:flex-end;align-items:center}
+nav .l a,nav .r a.t{position:relative;padding:4px 0}
+nav .l a::after,nav .r a.t::after{content:"";position:absolute;left:50%;right:50%;bottom:0;height:1px;background:var(--amber);transition:left .3s,right .3s}
+nav .l a:hover::after,nav .r a.t:hover::after{left:0;right:0}
+.logo{text-align:center;line-height:1.05}
+.logo b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-weight:400;font-size:25px;letter-spacing:-.03em}
+.logo span{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--soft)}
+nav .btn{height:44px;padding:0 20px;font-size:14.5px}
+/* hero */
+.hero{padding:34px 0 0}
+.hero .wrap{display:grid;grid-template-columns:1fr minmax(320px,400px) 1fr;gap:48px;align-items:end}
+.hero h1{font-size:clamp(46px,5.6vw,86px);margin-bottom:28px}
+.hero h1 i{font-style:normal;color:var(--amber)}
+.hero .lead{color:var(--soft);max-width:340px;margin-bottom:32px}
+.hero .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.arch{border-radius:999px 999px 0 0;overflow:hidden;aspect-ratio:3/4.1;background:var(--oat2);position:relative}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.arch .badge{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);background:var(--cream);border-radius:999px;padding:10px 18px;font-size:14px;white-space:nowrap;display:flex;gap:8px;align-items:center}
+.arch .badge b{color:var(--amber)}
+.info{padding-bottom:6px}
+.info .row{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);font-size:15px}
+.info .row:first-child{border-top:1px solid var(--line)}
+.info .row span:first-child{color:var(--soft)}
+.info p.note{font-size:14.5px;color:var(--soft);margin-top:22px}
+/* marquee */
+.mq{margin-top:70px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;padding:22px 0}
+.mq div{display:inline-block;animation:mq 38s linear infinite}
+.mq span{font-family:"Bricolage Grotesque",sans-serif;font-weight:300;font-size:30px;letter-spacing:-.02em;margin-right:46px}
+.mq span::after{content:"✦";color:var(--amber);font-size:14px;margin-left:46px;vertical-align:middle}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* menu */
+section{padding:130px 0}
+.sh{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:70px}
+.sh h2,.h2{font-size:clamp(38px,4.6vw,68px)}
+.sh p{color:var(--soft);max-width:440px;justify-self:end}
+.menu{display:grid;grid-template-columns:1fr 1fr;gap:0 80px}
+.cat{margin-bottom:56px}
+.cat h3{display:flex;align-items:baseline;gap:14px;font-family:"Bricolage Grotesque",sans-serif;font-weight:400;font-size:28px;letter-spacing:-.025em;margin-bottom:10px}
+.cat h3 small{font-family:Onest,sans-serif;font-size:12.5px;letter-spacing:.16em;color:var(--amber2);text-transform:uppercase}
+.item{display:flex;align-items:baseline;gap:12px;padding:15px 0;border-bottom:1px dashed var(--line);transition:padding .3s,color .3s}
+.item:hover{padding-left:8px;color:var(--amber2)}
+.item b{font-weight:500}
+.item .dots{flex:1;border-bottom:1px dotted rgba(59,42,30,.3);transform:translateY(-4px)}
+.item span{color:var(--soft);font-size:14.5px}
+/* ambience */
+.amb{background:var(--oat)}
+.amb .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}
+.amb blockquote{font-size:clamp(30px,3.2vw,46px);margin:22px 0 26px}
+.amb blockquote::before{content:"“"}.amb blockquote::after{content:"”"}
+.amb .src{color:var(--soft);font-size:14.5px}
+.trio{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:end}
+.trio figure{border-radius:200px 200px 14px 14px;overflow:hidden;background:var(--oat2)}
+.trio figure:nth-child(1){aspect-ratio:3/5}
+.trio figure:nth-child(2){aspect-ratio:3/4.2;margin-bottom:40px}
+.trio figure:nth-child(3){aspect-ratio:3/5.4}
+.trio img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.trio figure:hover img{transform:scale(1.05)}
+/* promise */
+.prom{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line)}
+.pr{padding:40px 36px 10px 0}
+.pr+.pr{padding-left:36px;border-left:1px solid var(--line)}
+.pr .ic{width:52px;height:52px;border-radius:50%;background:var(--oat);display:grid;place-items:center;margin-bottom:26px;color:var(--amber2);transition:background .3s,color .3s}
+.pr:hover .ic{background:var(--amber);color:var(--cream)}
+.pr h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:400;font-size:26px;letter-spacing:-.02em;margin-bottom:8px}
+.pr p{color:var(--soft);font-size:15.5px}
+/* reviews */
+.rev{background:var(--cocoa);color:var(--cream);text-align:center}
+.rev .kick{color:#D9A766}
+.stage{position:relative;max-width:900px;margin:34px auto 0;min-height:150px}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .8s;pointer-events:none}
+.slide.on{opacity:1;position:relative;pointer-events:auto}
+.slide p{font-size:clamp(26px,3.2vw,42px)}
+.slide span{display:block;margin-top:28px;color:#B8A898;font-size:14.5px}
+.dotsnav{display:flex;justify-content:center;gap:10px;margin-top:40px}
+.dotsnav button{width:34px;height:3px;border:0;background:rgba(247,243,236,.25);cursor:pointer;transition:background .3s}
+.dotsnav button.on{background:#D9A766}
+.score{display:flex;justify-content:center;gap:34px;margin-top:56px;color:#B8A898;font-size:14.5px;flex-wrap:wrap}
+.score b{color:var(--cream);font-family:"Bricolage Grotesque",sans-serif;font-weight:400;font-size:20px;margin-right:6px}
+/* visit */
+.visit .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+.vcard{background:var(--oat);border-radius:28px;padding:60px}
+.vcard .h2{margin:18px 0 22px}
+.vcard p{color:var(--soft);max-width:440px;margin-bottom:34px}
+.vcard .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.vimg{border-radius:28px;overflow:hidden;position:relative;min-height:420px}
+.vimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vimg .tag{position:absolute;left:24px;right:24px;bottom:24px;background:rgba(247,243,236,.94);border-radius:18px;padding:20px 22px;font-size:15px}
+.vimg .tag b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-weight:400;font-size:21px;letter-spacing:-.02em}
+footer{padding:40px 0 48px;color:var(--soft);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+/* fab */
+.fab{position:fixed;right:24px;bottom:24px;z-index:45;display:flex;flex-direction:column;gap:10px;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .35s,transform .35s}
+.fab.show{opacity:1;transform:none;pointer-events:auto}
+.fab a{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;box-shadow:0 14px 30px -12px rgba(34,23,15,.55);transition:transform .25s}
+.fab a:hover{transform:scale(1.07)}
+.fab .wa{background:#1FAF55}.fab .call{background:var(--umber)}
+.fab svg{width:23px;height:23px;fill:#fff}
+.fab span{display:none}
+/* reveal */
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .rv{opacity:1;transform:none;transition:none}.mq div{animation:none}*{transition:none!important}}
+@media (max-width:1080px){
+ nav .l{display:none}nav .wrap{grid-template-columns:auto 1fr}.logo{text-align:left}
+ .hero .wrap{grid-template-columns:1fr 1fr;gap:40px}
+ .hero .info{grid-column:1/3}
+ .sh,.amb .wrap,.visit .wrap{grid-template-columns:1fr}
+ .sh{gap:20px}.sh p{justify-self:start}
+ .menu{grid-template-columns:1fr}
+ .amb .wrap{gap:50px}
+}
+@media (max-width:720px){
+ body{font-size:16px;padding-bottom:76px}
+ .wrap{padding:0 20px}
+ nav .wrap{height:66px}
+ nav .r a.t{display:none}
+ nav .btn{height:40px;padding:0 16px}
+ .hero{padding-top:20px}
+ .hero .wrap{grid-template-columns:1fr;gap:34px}
+ .hero .info{grid-column:auto}
+ .hero .lead{max-width:none}
+ .hero .ctas .btn{flex:1 1 100%}
+ .arch{aspect-ratio:3/3.6}
+ .mq{margin-top:50px}.mq span{font-size:24px}
+ section{padding:84px 0}
+ .prom{grid-template-columns:1fr}
+ .pr,.pr+.pr{padding:30px 0;border-left:0;border-bottom:1px solid var(--line)}
+ .trio{gap:10px}
+ .vcard{padding:36px 24px}
+ .vimg{min-height:380px}
+ .stage{min-height:250px}
+ .fab{opacity:1;transform:none;pointer-events:auto;left:0;right:0;bottom:0;flex-direction:row;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(247,243,236,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+ .fab a{flex:1;width:auto;height:48px;border-radius:14px;box-shadow:none;display:flex;align-items:center;justify-content:center;gap:8px;color:#fff;font-weight:500;font-size:15px}
+ .fab svg{width:18px;height:18px}
+ .fab span{display:inline}
+}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+ <div class="l"><a href="#rituals">Rituals</a><a href="#ambience">Ambience</a><a href="#reviews">Reviews</a></div>
+ <a class="logo" href="#"><b>Paradise</b><span>Salon &amp; Spa</span></a>
+ <div class="r"><a class="t" href="#visit">Visit</a><a class="btn btn-a" href="https://wa.me/918437843857?text=Hi%2C%20I%27d%20like%20to%20book%20a%20spa%20session">Book a slot</a></div>
+</div></nav>
+
+<header class="hero">
+ <div class="wrap">
+  <div class="rv">
+   <span class="kick">Sector 7 · Madhya Marg</span>
+   <h1 class="d" style="margin-top:18px">Leave the city at the <i>door.</i></h1>
+   <p class="lead">Thai and aromatherapy massage, body spa, facials and hair rituals, one floor above Madhya Marg's traffic.</p>
+   <div class="ctas"><a class="btn btn-a" href="https://wa.me/918437843857?text=Hi%2C%20I%27d%20like%20to%20book%20a%20spa%20session">Reserve on WhatsApp</a><a class="btn btn-o" href="#rituals">View rituals</a></div>
+  </div>
+  <div class="arch rv"><img src="img/hero.jpg" alt="Warm hot-stone massage in a softly lit spa room" width="1600" height="2133"><div class="badge"><b>★ 4.6</b> 201 Google reviews</div></div>
+  <div class="info rv">
+   <div class="row"><span>Open</span><span>Every day</span></div>
+   <div class="row"><span>Hours</span><span>11 am – 10 pm</span></div>
+   <div class="row"><span>Find us</span><span>SCO 5A, first floor</span></div>
+   <div class="row"><span>Landmark</span><span>Beside Nick Bakers</span></div>
+   <p class="note">For men &amp; women. Walk in, or message us and we'll keep your therapist ready.</p>
+  </div>
+ </div>
+ <div class="mq" aria-hidden="true"><div><span>Thai massage</span><span>Aromatherapy</span><span>Body spa</span><span>Facials</span><span>Hair spa</span><span>Manicure &amp; pedicure</span><span>Bridal makeup</span><span>Men's grooming</span><span>Thai massage</span><span>Aromatherapy</span><span>Body spa</span><span>Facials</span><span>Hair spa</span><span>Manicure &amp; pedicure</span><span>Bridal makeup</span><span>Men's grooming</span></div></div>
+</header>
+
+<section id="rituals">
+ <div class="wrap">
+  <div class="sh"><div class="rv"><span class="kick">The menu</span><h2 class="d h2" style="margin-top:16px">Rituals for the whole you.</h2></div><p class="rv">Head-to-toe care by trained, experienced therapists, using premium products in a calm, spotless space. Ask us for durations and today's offers.</p></div>
+  <div class="menu">
+   <div>
+    <div class="cat rv"><h3>Massage <small>Body</small></h3>
+     <div class="item"><b>Thai massage</b><i class="dots"></i><span>Stretch &amp; release</span></div>
+     <div class="item"><b>Aromatherapy massage</b><i class="dots"></i><span>Essential oils</span></div>
+     <div class="item"><b>Relaxing full-body massage</b><i class="dots"></i><span>Unwind</span></div>
+     <div class="item"><b>Body spa therapy</b><i class="dots"></i><span>Scrub &amp; polish</span></div>
+    </div>
+    <div class="cat rv"><h3>Skin <small>Face</small></h3>
+     <div class="item"><b>Signature facial</b><i class="dots"></i><span>Glow</span></div>
+     <div class="item"><b>Skincare treatments</b><i class="dots"></i><span>Tailored</span></div>
+    </div>
+   </div>
+   <div>
+    <div class="cat rv"><h3>Hair <small>Salon</small></h3>
+     <div class="item"><b>Hair spa</b><i class="dots"></i><span>Nourish</span></div>
+     <div class="item"><b>Haircut &amp; styling</b><i class="dots"></i><span>Women &amp; men</span></div>
+    </div>
+    <div class="cat rv"><h3>Hands &amp; feet <small>Care</small></h3>
+     <div class="item"><b>Manicure</b><i class="dots"></i><span>Classic</span></div>
+     <div class="item"><b>Pedicure</b><i class="dots"></i><span>Soak &amp; soothe</span></div>
+    </div>
+    <div class="cat rv"><h3>Occasions <small>Makeup</small></h3>
+     <div class="item"><b>Wedding &amp; party makeup</b><i class="dots"></i><span>On booking</span></div>
+     <div class="item"><b>Men's grooming</b><i class="dots"></i><span>Sharp</span></div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="amb" id="ambience">
+ <div class="wrap">
+  <div class="rv">
+   <span class="kick">The space</span>
+   <blockquote class="d">The ambiance was serene and beautifully decorated, creating a calming atmosphere.</blockquote>
+   <p class="src">A guest on Google · “I left feeling rejuvenated and relaxed.”</p>
+  </div>
+  <div class="trio rv">
+   <figure><img src="img/oil.jpg" alt="Amber glass oil bottle in soft light" loading="lazy"></figure>
+   <figure><img src="img/lounge.jpg" alt="Warm, quiet spa lounge" loading="lazy" style="object-position:40% center"></figure>
+   <figure><img src="img/stones.jpg" alt="Smooth dark massage stones" loading="lazy"></figure>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="sh"><div class="rv"><span class="kick">Our promise</span><h2 class="d h2" style="margin-top:16px">What guests notice first.</h2></div><p class="rv">Straight from our Google reviews: the little things that make you come back.</p></div>
+  <div class="prom">
+   <div class="pr rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c4 4 6 7 6 10a6 6 0 0 1-12 0c0-3 2-6 6-10z"/></svg></div><h3>Top-notch hygiene</h3><p>Fresh linen, sanitised rooms and a space that “looks and smells good”.</p></div>
+   <div class="pr rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Seen on time</h3><p>Warm welcome, no long waits, and your therapist ready when you arrive.</p></div>
+   <div class="pr rv"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 12l-8 8-8-8 8-8z"/></svg></div><h3>Fair prices</h3><p>Prices guests call “reasonable for the quality”, with offers worth asking about.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="rev" id="reviews">
+ <div class="wrap">
+  <span class="kick">Kind words</span>
+  <div class="stage" aria-live="polite">
+   <div class="slide on"><p class="d">“From the moment I walked in, I was greeted warmly by the staff… I left feeling rejuvenated and relaxed.”</p><span>Google review · 5★</span></div>
+   <div class="slide"><p class="d">“Nice ambience, loved it. Services they provide are outstanding, along with the staff nature.”</p><span>Google review · 5★</span></div>
+   <div class="slide"><p class="d">“Very good staff, look and smell good. Comfortable, peaceful, extremely friendly service.”</p><span>Google review · 5★</span></div>
+   <div class="slide"><p class="d">“Cooperative staff and good therapy.”</p><span>Google review · Nov 2025 · 5★</span></div>
+  </div>
+  <div class="dotsnav"><button class="on" aria-label="Review 1"></button><button aria-label="Review 2"></button><button aria-label="Review 3"></button><button aria-label="Review 4"></button></div>
+  <div class="score"><span><b>4.6★</b>on Google</span><span><b>201</b>reviews</span><span><b>7</b>days a week</span></div>
+ </div>
+</section>
+
+<section class="visit" id="visit">
+ <div class="wrap">
+  <div class="vcard rv">
+   <span class="kick">Visit</span>
+   <h2 class="d h2">Your hour of quiet is one message away.</h2>
+   <p>Tell us the ritual and the time. We'll confirm on WhatsApp and have the room ready.</p>
+   <div class="ctas"><a class="btn btn-a" href="https://wa.me/918437843857?text=Hi%2C%20I%27d%20like%20to%20book%20a%20spa%20session">Book on WhatsApp</a><a class="btn btn-o" href="tel:+918437843857">+91 84378 43857</a></div>
+  </div>
+  <div class="vimg rv"><img src="img/hands.jpg" alt="Therapist preparing aromatherapy oils" loading="lazy"><div class="tag"><b>SCO 5A, First Floor, Madhya Marg</b>Sector 7, Chandigarh 160019 · beside Nick Bakers · <a href="https://maps.google.com/?q=Paradise+Salon+and+Spa+Sector+7+Chandigarh" target="_blank" rel="noopener" style="border-bottom:1px solid var(--amber)">Directions</a></div></div>
+ </div>
+</section>
+
+<footer><div class="wrap"><span>© Paradise Salon &amp; Spa, Chandigarh · Open daily 11 am – 10 pm</span><span>Demo website concept by Zykken</span></div></footer>
+
+<div class="fab"><a class="wa" href="https://wa.me/918437843857" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2s-1 .3-3.4-.7a11.4 11.4 0 0 1-4.6-4.1 5 5 0 0 1-1.1-2.7 3 3 0 0 1 .9-2.2 1 1 0 0 1 .7-.3h.5c.2 0 .4 0 .6.5l.9 2.1a.6.6 0 0 1 0 .5l-.3.5-.4.5c-.2.2-.3.3-.1.6a8.6 8.6 0 0 0 1.6 2 7.8 7.8 0 0 0 2.3 1.4c.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.4.2.5.3a2.3 2.3 0 0 1-.4 1.6z"/></svg><span>WhatsApp</span></a><a class="call" href="tel:+918437843857" aria-label="Call"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .6 3.6 1 1 0 0 1-.3 1z"/></svg><span>Call</span></a></div>
+<script>
+document.documentElement.classList.add('js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -30px 0px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const sl=[...document.querySelectorAll('.slide')],dt=[...document.querySelectorAll('.dotsnav button')];let k=0,t;
+const go=i=>{k=i;sl.forEach((s,j)=>s.classList.toggle('on',j===i));dt.forEach((d,j)=>d.classList.toggle('on',j===i))};
+dt.forEach((d,i)=>d.addEventListener('click',()=>{go(i);clearInterval(t)}));
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){t=setInterval(()=>go((k+1)%sl.length),6000)}
+const fb=document.querySelector('.fab');const sf=()=>fb.classList.toggle('show',scrollY>innerHeight*.5);addEventListener('scroll',sf,{passive:true});sf();
+</script>
+</body>
+</html>
